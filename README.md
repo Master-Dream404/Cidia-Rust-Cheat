@@ -50,7 +50,6 @@
 - Console window hiding
 - HWID and return spoofing
 - Hidden file/module loading
-- Token-based auth system
 - Hidden folder creation
 
 ### 🖥️ Overlay & UI
@@ -63,7 +62,6 @@
 - URL reading and JSON config support
 - Multi-threaded system (render, raid, trace)
 - Internal debug log system
-- Auth system with encrypted session
 
 ---
 
@@ -77,7 +75,6 @@ Cidia Rust Cheat/
 ├── BaseProjectile.cpp/.h
 ├── CheatFunction.cpp/.h
 ├── overlay.cpp/.h
-├── auth.h / encryption
 ├── kernel/driver loader
 ├── ImGui / JSON / Filesystem includes
 └── Cidia Rust Cheat.cpp (main)
