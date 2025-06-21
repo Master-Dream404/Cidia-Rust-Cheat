@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\lib">
+      <UniqueIdentifier>{8f032343-4a2e-4790-a2f0-6e9b52851e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Driver">
+      <UniqueIdentifier>{b8860d51-d4e7-4ec8-aee7-0b5d53a342b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\global">
+      <UniqueIdentifier>{9671615d-839f-4a76-8cf6-86e67772de97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\memory">
+      <UniqueIdentifier>{4fb99c7b-476c-4e70-a53a-c9d0e73a724f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\kernel">
+      <UniqueIdentifier>{5a469181-032a-4035-9f62-66bc8dd0d326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\kernel\kernel typedef">
+      <UniqueIdentifier>{9e1724bb-4114-44cf-b698-fcda0b61881b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust">
+      <UniqueIdentifier>{749e4585-1751-45a8-bb88-bde9a31d8b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{4425b667-4f4f-46c0-8cca-e2f5cd71c394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\overlay">
+      <UniqueIdentifier>{d4ca8d6d-dcef-4763-acde-b9cb3b51ce43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui">
+      <UniqueIdentifier>{95a67565-6910-4197-a707-2f0e0d782e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BaseMovement">
+      <UniqueIdentifier>{0e7dc322-e4dd-4ba3-a8ab-2fe3296bbf89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BaseNetworkable">
+      <UniqueIdentifier>{b6b62195-c1a2-4c79-92a9-3af1f132fcef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BasePlayer">
+      <UniqueIdentifier>{b8052ba5-1352-4bcb-9a8c-74d3e9ce7e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BaseProjectile">
+      <UniqueIdentifier>{ef56cefb-bca0-4217-aa60-57d33558e866}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\ConsoleSystem">
+      <UniqueIdentifier>{ad5580e1-2133-4b9b-9d7c-4239faea4103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\ConvarGraphics">
+      <UniqueIdentifier>{159c0d7c-a469-4252-8c00-137d4ebe0701}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\Item">
+      <UniqueIdentifier>{31920293-4c5c-433b-8aa8-ed31b2741587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\LocalPlayer">
+      <UniqueIdentifier>{fa2662b1-6798-433f-90a0-2c0c55eed96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\MainCamera">
+      <UniqueIdentifier>{2a7abb50-cce1-464a-aa6e-3a223a09e302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\TODSky">
+      <UniqueIdentifier>{66e4180c-186f-441a-84c8-9d9c56d3e48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\unity">
+      <UniqueIdentifier>{25f0a40b-fd4d-4b77-a5df-55b9d4ea5a8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\Vectors">
+      <UniqueIdentifier>{acdbedb6-bb5d-4fd7-acd9-ef5df6e8b64f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\ConvarAdmin">
+      <UniqueIdentifier>{985f1f28-cf42-48e0-b692-2bf7ad17c361}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\Function">
+      <UniqueIdentifier>{24e19c91-62fe-4fa4-950b-f4e5746d7dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\OcclusionCulling">
+      <UniqueIdentifier>{c3f5e5f3-637b-4ce1-a57b-543cae513d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\Aimbot">
+      <UniqueIdentifier>{6d577e3d-17ef-4f1d-9576-352cac7f1586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\Visuals">
+      <UniqueIdentifier>{0746508e-f749-4a21-b73e-7f57e1a0f353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\GameObjectManager">
+      <UniqueIdentifier>{40ebf1f6-44b5-4b3d-851c-4058965b5261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\EntityESP">
+      <UniqueIdentifier>{02cd27a6-3d32-4071-8f85-66f39464d99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\Settings">
+      <UniqueIdentifier>{c0c5ac1a-74ff-4e1a-917a-8957329a0463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\Miscellaneous">
+      <UniqueIdentifier>{f073f207-73ed-4b9d-b2df-491fcc84dc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BaseMelee">
+      <UniqueIdentifier>{8e98b254-6c55-4800-a183-9bf89c5adce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\style">
+      <UniqueIdentifier>{7a915fec-b158-4489-ae17-a6984e994c4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\font">
+      <UniqueIdentifier>{7a8aaa5b-df93-4873-a1bd-9b9c3e56061a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI\ui\EntityESP\hashcodes">
+      <UniqueIdentifier>{35436878-67f7-408d-a97d-bde7eb77bfb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\GUI">
+      <UniqueIdentifier>{2c0b327f-66aa-4b37-9f6f-b907895f5b3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\GUI\imgui">
+      <UniqueIdentifier>{e6ccffbc-76c6-436e-8102-f141eb1dbb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\GUI\Hotkey">
+      <UniqueIdentifier>{16750bb4-f095-4ac2-9ed3-e39f31a1d998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\Auth">
+      <UniqueIdentifier>{773e0799-f6e6-41ec-ba7e-36a68d82a0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\Auth\user">
+      <UniqueIdentifier>{916bd522-f8b1-4691-ad81-fc0f45153d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\lib\Auth\hwid">
+      <UniqueIdentifier>{4911465c-4653-41c0-b83e-9bb703f1cb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rust\BaseProjectile\Projectile">
+      <UniqueIdentifier>{50f3b3d3-4b4d-4181-9b61-785fea7deb3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cidia Rust Cheat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.cpp">
+      <Filter>Header Files\lib\kernel</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>Header Files\GUI\overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>Header Files\GUI\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_dx9.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_win32.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMovement.cpp">
+      <Filter>Header Files\Rust\BaseMovement</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseNetworkable.cpp">
+      <Filter>Header Files\Rust\BaseNetworkable</Filter>
+    </ClCompile>
+    <ClCompile Include="BasePlayer.cpp">
+      <Filter>Header Files\Rust\BasePlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseProjectile.cpp">
+      <Filter>Header Files\Rust\BaseProjectile</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleSystem.cpp">
+      <Filter>Header Files\Rust\ConsoleSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvarGraphics.cpp">
+      <Filter>Header Files\Rust\ConvarGraphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Header Files\Rust\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Header Files\Rust\LocalPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Header Files\Rust\MainCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="TODSky.cpp">
+      <Filter>Header Files\Rust\TODSky</Filter>
+    </ClCompile>
+    <ClCompile Include="unity.cpp">
+      <Filter>Header Files\Rust\unity</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Header Files\lib\Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvarAdmin.cpp">
+      <Filter>Header Files\Rust\ConvarAdmin</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatFunction.cpp">
+      <Filter>Header Files\lib\Function</Filter>
+    </ClCompile>
+    <ClCompile Include="OcclusionCulling.cpp">
+      <Filter>Header Files\Rust\OcclusionCulling</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Header Files\GUI\ui\Aimbot</Filter>
+    </ClCompile>
+    <ClCompile Include="Visuals.cpp">
+      <Filter>Header Files\GUI\ui\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Header Files\Rust\GameObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityESP.cpp">
+      <Filter>Header Files\GUI\ui\EntityESP</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Header Files\GUI\ui\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Miscellaneous.cpp">
+      <Filter>Header Files\GUI\ui\Miscellaneous</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMelee.cpp">
+      <Filter>Header Files\Rust\BaseMelee</Filter>
+    </ClCompile>
+    <ClCompile Include="style.cpp">
+      <Filter>Header Files\GUI\style</Filter>
+    </ClCompile>
+    <ClCompile Include="Hotkey.cpp">
+      <Filter>Header Files\lib\GUI\Hotkey</Filter>
+    </ClCompile>
+    <ClCompile Include="user.cpp">
+      <Filter>Header Files\lib\Auth\user</Filter>
+    </ClCompile>
+    <ClCompile Include="hwid.cpp">
+      <Filter>Header Files\lib\Auth\hwid</Filter>
+    </ClCompile>
+    <ClCompile Include="auth.cpp">
+      <Filter>Header Files\lib\Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Header Files\Rust\BaseProjectile\Projectile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files\Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files\lib\global</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Header Files\lib\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="return_spoofer.hpp">
+      <Filter>Header Files\lib\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="kernel.h">
+      <Filter>Header Files\lib\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>Header Files\lib\kernel\kernel typedef</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>Header Files\GUI\overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Header Files\GUI\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_dx9.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_win32.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Header Files\lib\GUI\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="rust.h">
+      <Filter>Header Files\Rust</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMovement.h">
+      <Filter>Header Files\Rust\BaseMovement</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseNetworkable.h">
+      <Filter>Header Files\Rust\BaseNetworkable</Filter>
+    </ClInclude>
+    <ClInclude Include="BasePlayer.h">
+      <Filter>Header Files\Rust\BasePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseProjectile.h">
+      <Filter>Header Files\Rust\BaseProjectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleSystem.h">
+      <Filter>Header Files\Rust\ConsoleSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvarGraphics.h">
+      <Filter>Header Files\Rust\ConvarGraphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Header Files\Rust\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Header Files\Rust\LocalPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Header Files\Rust\MainCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="TODSky.h">
+      <Filter>Header Files\Rust\TODSky</Filter>
+    </ClInclude>
+    <ClInclude Include="unity.h">
+      <Filter>Header Files\Rust\unity</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvarAdmin.h">
+      <Filter>Header Files\Rust\ConvarAdmin</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatFunction.h">
+      <Filter>Header Files\lib\Function</Filter>
+    </ClInclude>
+    <ClInclude Include="OcclusionCulling.h">
+      <Filter>Header Files\Rust\OcclusionCulling</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Header Files\GUI\ui\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Visuals.h">
+      <Filter>Header Files\GUI\ui\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="XRINT.h">
+      <Filter>Header Files\lib\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Header Files\Rust\GameObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityESP.h">
+      <Filter>Header Files\GUI\ui\EntityESP</Filter>
+    </ClInclude>
+    <ClInclude Include="fnv1a.hpp">
+      <Filter>Header Files\lib\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\GUI\ui\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Miscellaneous.h">
+      <Filter>Header Files\GUI\ui\Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMelee.h">
+      <Filter>Header Files\Rust\BaseMelee</Filter>
+    </ClInclude>
+    <ClInclude Include="style.h">
+      <Filter>Header Files\GUI\style</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files\GUI\font</Filter>
+    </ClInclude>
+    <ClInclude Include="customfont.h">
+      <Filter>Header Files\GUI\font</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files\GUI\ui\EntityESP\hashcodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Hotkey.h">
+      <Filter>Header Files\lib\GUI\Hotkey</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.h">
+      <Filter>Header Files\lib\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="user.h">
+      <Filter>Header Files\lib\Auth\user</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid.h">
+      <Filter>Header Files\lib\Auth\hwid</Filter>
+    </ClInclude>
+    <ClInclude Include="export.h">
+      <Filter>Header Files\lib\Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\Rust\BaseProjectile\Projectile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="spoofer_stub.asm">
+      <Filter>Header Files\lib\memory</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\..\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\m_includes\Microsoft DirectX SDK\Lib\x64\d3d9.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Vectors.h">
+      <Filter>Header Files\lib\Vectors</Filter>
+    </None>
+  </ItemGroup>
+</Project>
